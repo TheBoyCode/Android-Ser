@@ -22,8 +22,13 @@ public class DeleteForm extends AppCompatActivity {
         ValidatorService validatorService = new ValidatorService();
         EditText question = findViewById(R.id.edittext_nameText);
         if(validatorService.IsNumber(question.getText().toString())) {
-            service.DeleteFromDb(Integer.valueOf(question.getText().toString())-1,this);
-            finish();
+            if(validatorService.Valid_IsQuestion(Integer.valueOf(question.getText().toString())-1)) {
+                service.DeleteFromDb(Integer.valueOf(question.getText().toString())-1,this);
+                finish();
+            }
+            else {
+                question.setTextColor(Color.RED);
+            }
         }
         else {
             question.setTextColor(Color.RED);
