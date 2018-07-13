@@ -4,7 +4,7 @@ Version 1.0 13/07/2018
 ## GENERAL USAGE NOTES
 --------------------
 Supports android 4.0.3 and later
-#### DESCRIPTION
+### DESCRIPTION
 This application allows you to receive anonymous assessments of your service or product from customers.
 
 ### INSTRUCTIONS FOR USE
