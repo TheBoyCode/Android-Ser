@@ -25,7 +25,8 @@ This application allows you to receive anonymous assessments of your service or 
 ## INFORMATION FOR DEVELOPERS
 ---------------------------
 You need to synchronize the database of the program with your database. The program has a local database:
-Tables: 
+
+#### Tables: 
 ##### users (user_id text| mail text| password text|)
 ##### points (point_id text| user_id text| code text|)
 ##### questions (question_id text| question text| point_id text|)
