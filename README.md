@@ -1,15 +1,15 @@
 # Android-Ser
 Version 1.0 13/07/2018
 
-##GENERAL USAGE NOTES
+## GENERAL USAGE NOTES
 --------------------
 Supports android 4.0.3 and later
 
-##DESCRIPTION
+## DESCRIPTION
 ------------
 This application allows you to receive anonymous assessments of your service or product from customers.
 
-##INSTRUCTIONS FOR USE
+## INSTRUCTIONS FOR USE
 ---------------------
 1. Authorize with your Yaware service account.
 2. Enter the code of your point.
@@ -21,7 +21,7 @@ This application allows you to receive anonymous assessments of your service or 
 	Enter number of question in field.
 	d) To edit some point, click edit. Enter number of 	question in first field nad new question in second field. 	Click save.
 
-##INFORMATION FOR DEVELOPERS
+## INFORMATION FOR DEVELOPERS
 ---------------------------
 You need to synchronize the database of the program with your database. The program has a local database:
 Tables:
@@ -42,7 +42,7 @@ question_id | question | point_id|
 score_id | value | questionid|
 ------------------------------
 
-##Contact
+## Contact
 --------
 email: trainee1@yaware.com
 
