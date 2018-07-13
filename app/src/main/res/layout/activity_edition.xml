@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/scorebg"
+    android:orientation="vertical"
+    tools:context=".Edition"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textview_oldname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="108dp"
+                android:background="@drawable/round"
+                android:text="Номер питання"
+                android:textColor="@color/colorBlack"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@+id/edittext_oldname"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/edittext_oldname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="77dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/round"
+                android:ems="10"
+                android:hint="Введіть номер"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorBlack"
+                android:textColorHighlight="#7b7979"
+                android:textColorHint="#757474"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@+id/textview_newname"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textview_oldname" />
+
+            <TextView
+                android:id="@+id/textview_newname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/round"
+                android:gravity=""
+                android:text="Нове питання"
+                android:textColor="@color/colorBlack"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@+id/edittext_newname"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edittext_oldname" />
+
+            <EditText
+                android:id="@+id/edittext_newname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="69dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/round"
+                android:ems="10"
+                android:hint="Введіть нове питання"
+                android:inputType="textMultiLine"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="#7b7979"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textview_newname" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="191dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edittext_newname">
+
+                <Button
+                    android:id="@+id/btn_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round"
+                    android:onClick="Click_Back"
+                    android:text="Назад"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="24sp"
+                    tools:layout_editor_absoluteX="78dp"
+                    tools:layout_editor_absoluteY="473dp" />
+
+                <Button
+                    android:id="@+id/btn_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round"
+                    android:onClick="Click_Save"
+                    android:text="Зберегти"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="24sp"
+                    tools:layout_editor_absoluteX="252dp"
+                    tools:layout_editor_absoluteY="473dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
