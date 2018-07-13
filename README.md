@@ -25,19 +25,19 @@ This application allows you to receive anonymous assessments of your service or 
 ---------------------------
 You need to synchronize the database of the program with your database. The program has a local database:
 Tables:
-	users
+	#### users
 --------------------------
 user_id | mail | password|
 --------------------------
-	points
+	#### points
 ---------------------------
 point_id | user_id | code |
 ---------------------------
-	questions
+	#### questions
 ----------------------------------
 question_id | question | point_id|
 ----------------------------------
-	rating
+	#### rating
 ------------------------------
 score_id | value | questionid|
 ------------------------------
