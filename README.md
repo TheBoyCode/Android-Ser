@@ -9,7 +9,7 @@ This application allows you to receive anonymous assessments of your service or 
 
 ## INSTRUCTIONS FOR USE
 ---------------------
-1. Authorize with your Yaware service account.
+1. Authorize with your [Yaware service](https://service.yaware.com.ua/) account.
 2. Enter the code of your point.
 3. 
 	a) To start the program, click start. Сyclic poll will 	start. To return to your homepage, exit the program  	and open it 		again. Return to step 1.
