@@ -33,6 +33,11 @@ You need to synchronize the database of the program with your database. The prog
 ##### questions (question_id text| question text| point_id text)
 ##### rating (score_id text| value text| questionid text)
 
+The program contains methods for testing the program:
+- Autocomplete tables
+- Update tables
+- Update tables to remove previous information
+
 ## Contact
 --------
 email: trainee1@yaware.com
