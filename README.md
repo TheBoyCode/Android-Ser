@@ -1,4 +1,4 @@
-# Android-Ser
+# Yaware Service for Android
 Version 1.0 13/07/2018
 
 ## GENERAL USAGE NOTES
