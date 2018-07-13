@@ -20,7 +20,7 @@ This application allows you to receive anonymous assessments of your service or 
 	c) To delete some question in this point, click delete.
 	Enter number of question in field.
 	
-	d) To edit some point, click edit. Enter number of 	question in first field nad new question in second field. 	Click save.
+	d) To edit some point, click edit. Enter number of 	question in first field and new question in second field. 	Click save.
 
 ## INFORMATION FOR DEVELOPERS
 ---------------------------
