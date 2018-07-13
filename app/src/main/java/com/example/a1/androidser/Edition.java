@@ -33,7 +33,7 @@ public class Edition extends AppCompatActivity {
         ValidatorService validatorService = new ValidatorService();
         if(validatorService.IsNumber(oldName.getText().toString())) {
             int oldText = Integer.valueOf(oldName.getText().toString());
-            if(service.Valid_IsQuestion(oldText)) {
+            if(service.Valid_IsQuestion(oldText-1)) {
                 pageService.ChangeQuestion(newText,oldText-1);
                 PageService.ToHome(this);
             }

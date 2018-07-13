@@ -45,8 +45,7 @@ public  class ValidatorService {
     public boolean Valid_IsPoint(String code) {
         User user = User.getIntence();
         for (PointCode p:user.points) {
-            if(p.Code.equals(code))
-            {
+            if(p.Code.equals(code)) {
                 user.point= p;
                 return true;
             }
