@@ -7,8 +7,7 @@ Supports android 4.0.3 and later
 #### DESCRIPTION
 This application allows you to receive anonymous assessments of your service or product from customers.
 
-## INSTRUCTIONS FOR USE
----------------------
+### INSTRUCTIONS FOR USE
 1. Authorize with your [Yaware service](https://service.yaware.com.ua/) account.
 2. Enter the code of your point.
 3. 
