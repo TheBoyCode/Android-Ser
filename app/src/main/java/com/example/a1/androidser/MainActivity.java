@@ -101,8 +101,8 @@ public class MainActivity extends AppCompatActivity {
         PointCode point = new PointCode();
         point.Questions=new ArrayList<>();
         point.Questions.add(q);
-       // point.Questions.add(q2);
-        // point.Questions.add(q3);
+        point.Questions.add(q2);
+        point.Questions.add(q3);
         point.Code="343434";
         point.UserId=user.id;
         point.id=q.PointId;
